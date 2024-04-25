@@ -30,13 +30,14 @@ To write a program to implement the K Means Clustering for Customer Segmentation
   - If the evaluation metrics allow for it, you can compare the results of multiple clustering runs with different K values and select the one that best suits your requirements
 
 ## Program:
+
 ```
 Program to implement the K Means Clustering for Customer Segmentation.
 Developed by: JANARTHANAN V K
 RegisterNumber:  212222230051
 ```
-```python
 
+```python
 import pandas as pd
 import matplotlib.pyplot as plt
 data = pd.read_csv("Mall_Customers.csv")
@@ -112,7 +113,7 @@ plt.title("Customer Segments")
 
 ### FINAL GRAPH(D/O):
 
-<img src="https://github.com/Janarthanan2/ML_Ex08_Implementation-of-K-Means-Clustering-for-Customer-Segmentation/assets/119393515/6d1710c9-d53f-41b5-a3cb-2bcb29100b51" width=50%>
+<img src="https://github.com/Janarthanan2/ML_Ex08_Implementation-of-K-Means-Clustering-for-Customer-Segmentation/assets/119393515/6d1710c9-d53f-41b5-a3cb-2bcb29100b51" width=35%>
 
 
 ## Result:
